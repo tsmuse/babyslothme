@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Babysloth</title>
+  <title>BabySloth.me | Sometimes only a baby sloth can fix it</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script src="//use.typekit.net/gfg4hhe.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-
-<%= yield %>
-
+	<header>
+		<div class="container">
+			<div class="col-md-6 col-md-offset-3">
+				<h1>Baby Sloth In Your Face!</h1>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="col-md-6 col-md-offset-3">
+				<%= yield %>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<footer>
+		<p>More Shinanigans from <a href="http://www.notjustprettypictures.com">Not Just Pretty Pictures</a> &copy;2014, MIT Lisence.</p>
+		<p><small>The software serving these images is lisenced under the MIT License. All other content is copyright it's original owner.</small></p> 
+	</footer>
 </body>
 </html>

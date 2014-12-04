@@ -1,0 +1,56 @@
+/* font weights available in proxima-nova:
+ * 200 => Light
+ * 400 => Regular
+ * 900 => Black
+ */
+
+body{
+  font-size:16px;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  background-color: rgba(164,207,190,1.0);
+}
+
+hr{
+  width:25%;
+}
+header h1{
+  font-size: 4.5em;
+  font-weight: 900;
+  color:rgba(244,247,217,1.0);
+ text-align: center;
+ }
+
+.photoframe{
+  width:100%;
+  background-color: rgba(65,115,120, 1.0);
+  padding-top:5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+}
+.photoframe > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.credits{
+  background-color: rgba(244,247,217,1.0);
+  color:rgba(65,115,120, 1.0);
+  font-weight: 400;
+  padding-top:5px;
+  padding-bottom: 10px;
+}
+.credits p{
+  margin-left: 10px;
+
+}
+
+.credit a{
+  color:rgba(164,207,190,1.0);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.credit a:hover{
+  text-decoration: underline;
+}

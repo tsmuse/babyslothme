@@ -1,6 +1,6 @@
-<h1>Baby Sloth!</h1>
-<%= image_tag @image.image_url, class: "img-responsive" %>
-<br>
+<div class="photoframe">
+	<%= image_tag @image.image_url, class: "img-responsive" %>
+</div>
 <div class="credits">
-	Original at: <%= link_to @image.title, @image.image_source %>
+	<p>Original at: <%= link_to @image.title, @image.image_source %></p>
 </div>
