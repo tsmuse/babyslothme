@@ -12,5 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.lettering-0.6.1.min
 //= require turbolinks
 //= require_tree .

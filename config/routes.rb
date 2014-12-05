@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   get 'images/index'
 
+  get 'slothpen' => 'images#slothpen'
+
   resources :images
 
   root 'images#index'

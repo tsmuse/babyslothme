@@ -7,12 +7,17 @@
   <%= csrf_meta_tags %>
   <script src="//use.typekit.net/gfg4hhe.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
+  <script>
+	$(document).ready(function() {
+		$(".site_title").lettering();
+	});
+  </script>
 </head>
 <body>
 	<header>
 		<div class="container">
 			<div class="col-md-6 col-md-offset-3">
-				<h1>Baby Sloth In Your Face!</h1>
+				<h1 class="site_title">Baby Sloth In Your Face!</h1>
 			</div>
 		</div>
 	</header>
@@ -25,8 +30,12 @@
 	</section>
 	<hr>
 	<footer>
-		<p>More Shinanigans from <a href="http://www.notjustprettypictures.com">Not Just Pretty Pictures</a> &copy;2014, MIT Lisence.</p>
-		<p><small>The software serving these images is lisenced under the MIT License. All other content is copyright it's original owner.</small></p> 
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2">
+				<p>More Shinanigans from <a href="http://www.notjustprettypictures.com">Not Just Pretty Pictures</a> &copy;2014, MIT Lisence.<br>
+				<small>The software serving these images is lisenced under the MIT License. All other content is copyright it's original owner.</small></p> 
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
