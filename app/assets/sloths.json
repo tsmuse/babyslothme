@@ -26,4 +26,22 @@
     "image_source": "http://worleygig.com/2013/04/09/cuteness-alert-baby-sloth/",
     "created_at": "2014-12-04T20:44:50.000Z",
     "updated_at": "2014-12-04T20:44:50.000Z"
+},
+{
+	"id":5,
+	"title": "That Cute Site",
+	"image_url": "http://www.thatcutesite.com/uploads/2009/09/baby_sloth_box.jpg",
+	"image_source": "http://www.thatcutesite.com/cute-baby-sloth-chills-in-a-box.html"
+},
+{
+	"id":6,
+	"title":"We Rule The Internet",
+	"image_url":"http://cdn.weruletheinternet.com//wp-content/uploads/images/2012/march/baby_sloths/baby_sloths_3.jpg",
+	"image_source":"http://weruletheinternet.com/2012/03/02/what-better-way-to-start-friday-then-by-having-22-incredibly-cute-pictures-of-baby-sloths-to-enjoy/"
+},
+{
+	"id":7,
+	"title":"We Rule The Internet",
+	"image_url":"http://cdn.weruletheinternet.com//wp-content/uploads/images/2012/march/baby_sloths/baby_sloths_13.jpg",
+	"image_source":"http://weruletheinternet.com/2012/03/02/what-better-way-to-start-friday-then-by-having-22-incredibly-cute-pictures-of-baby-sloths-to-enjoy/"
 }]

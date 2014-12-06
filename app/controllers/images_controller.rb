@@ -10,16 +10,8 @@ class ImagesController < ApplicationController
   	render json: @sloths
   end
 
-  def repopulate
-  	sloths = someObjectFromWebForm #this obviously won't work until I figure out what it really is. This is the json file.
-  	
-
-
-  end
-
-
-
   private
+  
   def image_params
   	params.require(:image).permit(:title, :image_url, :image_source)
   end
