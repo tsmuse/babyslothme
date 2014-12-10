@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
- gem 'bcrypt', '~> 3.1.7'
+ #gem 'bcrypt', '~> 3.1.7'
 
 # Use Bootstrap for lazy webpage building :p
 gem 'bootstrap-sass'
@@ -37,9 +37,6 @@ gem 'autoprefixer-rails'
 
 # Use unicorn as the app server
 # gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
