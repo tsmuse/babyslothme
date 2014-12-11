@@ -2,6 +2,8 @@
  * 200 => Light
  * 400 => Regular
  * 900 => Black
+ *
+ * Colors in pallet: 108,110,88 : 62,66,58 : 65,115,120 : 164,207,190 : 244,247,217
  */
 
 body{
@@ -20,6 +22,7 @@ hr{
   font-weight: 900;
   color:rgba(244,247,217,1.0);
  text-align: center;
+ text-shadow: 1px 1px 0px rgba(65,115,120, 0.3), 2px 3px 4px rgba(108,110,88,0.15); 
  }
  /* lettering.js things and stuff */
 
@@ -96,6 +99,7 @@ hr{
 }
 
 footer{
-  font-size: 0.9em;
+  font-size: 0.85em;
+  text-align: center;
 
 }
