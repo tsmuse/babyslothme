@@ -1,5 +1,6 @@
 == README
-
-!!Currently in progress!!
-
 A shameless knock-off of http://www.babygoat.me, built in Rails and pushing baby sloths in your face.
+
+I originally built this silly thing because I needed an app to deploy while I was learning how to deploy a rails app, and I didn't want to put a text-book exercise on the web. I had no idea it would be as popular as it was. I have since re-built it in JS because it's WAAAAAY faster, and WAAAAAAY cheaper to keep it running. 
+
+The current version of the code for the live version is at: http:/www.github.com/tsmuse/babyslothJS/
